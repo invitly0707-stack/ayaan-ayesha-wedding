@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Wedding Invitation</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- Tumhara poora code -->
+
+</body>
+</html>
+
+
+
+<div class="site">
+
+  <div class="hero particles" id="hero">
+    <div class="bismillah">Bismillah ir-Rahman ir-Rahim</div>
+    <div class="star-row">✦ ✧ ✦ ✧ ✦</div>
+    <div class="names">
+      Mohammad Ayaan Khan<br><span class="amp">&</span><br>Ayesha Fatima
+    </div>
+    <p class="tagline">Ek naye safar ki ibtida — Allah ki rehmat o barkat se</p>
+    <div class="date-badge">15 December 2026 · Bhopal</div>
+  </div>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-star">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">Rasoomaat o Taqreebaat</p>
+    <div class="events-grid">
+      <div class="event-card">
+        <span class="event-emoji">🌿</span>
+        <div class="event-name">Haldi</div>
+        <div class="event-date">13 Dec 2026</div>
+        <div class="event-time">Subah 11:00 Baje</div>
+      </div>
+      <div class="event-card">
+        <span class="event-emoji">💃</span>
+        <div class="event-name">Mehfil-e-Sangeet</div>
+        <div class="event-date">13 Dec 2026</div>
+        <div class="event-time">Shaam 7:00 Baje</div>
+      </div>
+      <div class="event-card">
+        <span class="event-emoji">🌸</span>
+        <div class="event-name">Rasm-e-Mehendi</div>
+        <div class="event-date">14 Dec 2026</div>
+        <div class="event-time">Shaam 4:00 Baje</div>
+      </div>
+      <div class="event-card">
+        <span class="event-emoji">💍</span>
+        <div class="event-name">Nikah o Walima</div>
+        <div class="event-date">15 Dec 2026</div>
+        <div class="event-time">Raat 8:00 Baje</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-star">✧</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">Maqaam-e-Shaadi</p>
+    <div class="venue-card">
+      <div class="venue-icon"><i class="ti ti-building" aria-hidden="true"></i></div>
+      <div class="venue-info">
+        <h3>Noor Mahal Palace</h3>
+        <p>VIP Road, Kohefiza, Bhopal, Madhya Pradesh 462001</p>
+        <span class="venue-tag">Tamam Taqreebaat · Bhopal</span>
+      </div>
+    </div>
+    <div class="venue-card">
+      <div class="venue-icon"><i class="ti ti-map-pin" aria-hidden="true"></i></div>
+      <div class="venue-info">
+        <h3>Raah-e-Maqaam</h3>
+        <p>Kohefiza ilaqa · Bhopal Railway Station se takriban 20 minute · Parking ki suvidha maujood hai</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="dua-box">
+    <div class="dua-label">Dua o Dawat</div>
+    <p class="dua-text">"Aapki shadmaan tashreef aari se yeh mehfil roshan hogi.<br>Aapki dua aur aashirwad humari sabse badi daulat hai."</p>
+  </div>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-star">✦</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-names">Ayaan & Ayesha</div>
+    <p class="footer-msg">
+      Khandan-e-Khan aur Khandan-e-Fatima<br>
+      dil ki gehraiyyon se aapko dawat dete hain.<br>
+      Zaroor tashreef laayein aur humein nawazein.
+    </p>
+    <p class="footer-dua">✦ JazakAllah Khair · Khuda Hafiz ✦</p>
+  </div>
+
+</div>
+
+<script>
+  const hero = document.getElementById('hero');
+  for (let i = 0; i < 12; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    p.style.left = Math.random() * 100 + '%';
+    p.style.top = Math.random() * 100 + '%';
+    p.style.animationDelay = Math.random() * 4 + 's';
+    p.style.animationDuration = (3 + Math.random() * 3) + 's';
+    p.style.width = p.style.height = (2 + Math.random() * 4) + 'px';
+    hero.appendChild(p);
+  }
+</script>
